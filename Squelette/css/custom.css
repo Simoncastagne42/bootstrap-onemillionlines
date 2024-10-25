@@ -16,3 +16,85 @@
 @media (max-width: 767px) {
 
 }
+
+
+header {
+background-color:#393a3a;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+nav {
+color: white;
+display: flex;
+justify-content: right;
+gap: 800px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+.lien1 {
+    color:white;
+    
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 15px;
+
+}
+
+#home {
+color:white;
+background-image: url(../images/hero-image.jpg);
+background-size: cover;
+height: 600px;
+ img {
+    margin-left: 55%;
+    margin-top: 50px;
+ }
+}
+
+
+}
+p{
+font-size: 20px;
+
+}
+
+
+
+.learn-more {
+padding-top: 10px;
+background-color: rgb(233, 75, 75);
+color: white;
+display: flex;
+justify-content: center;
+font-size: 40px;
+width  : 300px;
+height : 80px;
+margin-left: 50%;
+margin-top: 200px
+}
+
+h1 {
+font-size: 50px;
+padding-top: 50px;
+padding-left: 50px;
+display: flex;
+justify-content: center;
+}
+
+
