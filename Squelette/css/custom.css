@@ -220,6 +220,15 @@ footer {
   }
 }
 
+.carre{
+  padding-right: 2rem;
+  display: none;
+  img {
+width: 30px;
+height: 30px;
+  }
+}
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
@@ -247,4 +256,38 @@ footer {
 }
 
 @media (max-width: 767px) {
+
+  
+  #home {
+
+ padding-left: 2rem;
+    .carre{
+      display:block;
+    
+  }
+  }
+
+ nav > ul {
+
+  display:none;
+
+ }  
+
+article {
+  padding: 2rem 0rem;
+}
+
+.container{
+  padding: 1rem;
+  
+}
+h3 {
+  padding: 1rem;
+}
+p {
+  
+  padding: 1rem;}
+  
+ 
+
 }
